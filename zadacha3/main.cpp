@@ -15,7 +15,7 @@ int main() {
         vec.push_back(dis(gen));
     }
 
-    std::cout << "Исходный вектор: ";
+    std::cout << "Вектор: ";
     for (int x : vec) {
         std::cout << x << " ";
     }
@@ -27,7 +27,7 @@ int main() {
         vec.end()
     );
 
-    std::cout << "После удаления элементов, делящихся на 3: ";
+    std::cout << "Удаление элементов: ";
     for (int x : vec) {
         std::cout << x << " ";
     }

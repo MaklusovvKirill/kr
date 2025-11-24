@@ -16,7 +16,7 @@ int main() {
         }
     }
 
-    std::cout << "Матрица 5x5:\n";
+    std::cout << "Матрица:\n";
     for (int i = 0; i < SIZE; ++i) {
         for (int j = 0; j < SIZE; ++j) {
             std::cout << std::setw(4) << matrix[i][j] << " ";
@@ -29,6 +29,6 @@ int main() {
         diag_sum += matrix[i][i];
     }
 
-    std::cout << "Сумма элементов главной диагонали: " << diag_sum << std::endl;
+    std::cout << "Сумма элементов: " << diag_sum << std::endl;
     return 0;
 }
